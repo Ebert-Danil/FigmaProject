@@ -110,16 +110,37 @@ background-image: url(images/300d279235514a4d799d7283716f4987.jfif);
 background-size: 100%;
 width: 100%;
 background-repeat: no-repeat;
+position: relative;
+color: white;
  }
-
+ .profile{
+    display: flex;
+    align-items: center;
+ }
+ .profile img{
+    width: 28px;
+    border-radius: 50%;
+    margin-right: 10%;
+ }
+ .bottom-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .image-inner{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 5%;
+ }
 .images2 h2{
     color: white;
     text-decoration: none;
     font-weight: 50;
     font-size: 30px;
-    margin-top: 1 ;
-    margin-right: 20;
-
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
 
 } 
  .menu{
