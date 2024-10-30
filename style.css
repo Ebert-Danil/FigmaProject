@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: "Lora", serif;
+    background-color: #f7f7f7;
+}
+.images{
+    height: 500px;
+    background-image: url(images/aa2f6c5a65e6cb78734558f7deae3b0d.jfif);
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+ header ul{
+    display: flex;
+    gap: 30px;
+}
+header nav ul li{
+    display: inline;
+    font-family: "Oxygen", sans-serif;
+}
+ .logo{
+    font-weight:100 ;
+    font-size: 26px;
+ }
+ .brightness{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+}
+.banner-inner{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+.menu{
+    background: white;
+}
+
+.banner-inner h1{
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.banner-inner p{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 100;
+    opacity: 0.63;
+    font-size: 17px;
+}
+
+
+.banner-inner button{
+    font-family: "Oxygen", sans-serif;
+    font-size: 13px;
+    background-color: #DD783F;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 3px;
+} 
+.menu ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 20px 5%;
+}
+.menu li a{ 
+   text-decoration: none;
+   color: black;
+}
+ .menu2{
+ font-family: "Inconsolata", monospace;
+ text-align: center;
+  margin: 100
+ }
+ .cards{
+    display: flex;
+    padding: 0 10%;
+    gap: 20px;
+ }
+ .images2{
+height: 360px;
+background-image: url(images/300d279235514a4d799d7283716f4987.jfif);
+background-size: 100%;
+width: 100%;
+background-repeat: no-repeat;
+ }
+
+.images2 h2{
+    color: white;
+    text-decoration: none;
+    font-weight: 50;
+    font-size: 30px;
+    margin-top: 1 ;
+    margin-right: 20;
+
+
+} 
+ .menu{
+    color: darkgray;
+ }
