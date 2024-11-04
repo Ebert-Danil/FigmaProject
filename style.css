@@ -104,6 +104,11 @@ header nav ul li{
  text-align: center;
   margin: 100
  }
+ .menu2 h2{
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding: 15px 30px;
+ } 
  .cards{
     display: flex;
     padding: 0 10%;
@@ -148,4 +153,23 @@ color: white;
 } 
  .menu{
     color: darkgray;
+ }
+ .grid_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 0 10%;
+ }
+ .background{
+    width: 100;
+    aspect-ratio: 2/1;
+    background-position: center;
+    background-size: 100%;
+ }
+ .background-img0{
+   background-image: (images/da39ae3ef9ee8c38b3145e586cf8eb52.jfif)
+ }
+ .background-img1{
+ background-image: url(images/c284b29cf7912dafd828068ca1e0562b.jfif);
  }
