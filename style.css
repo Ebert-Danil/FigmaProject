@@ -5,8 +5,8 @@ body{
 }
 .images{
     height: 500px;
-    background-image: url(images/aa2f6c5a65e6cb78734558f7deae3b0d.jfif);
     width: 100%;
+    background-image: url(images/aa2f6c5a65e6cb78734558f7deae3b0d.jfif);
     background-size: 100%;
     background-position: center;
     position: relative;
@@ -14,7 +14,12 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.picture1{
+    background-image: url(images/300d279235514a4d799d7283716f4987.jfif);
+}
+.picture2{
+   background-image: url(images/92b1d1dcd8460c93884068f787c714e2.jfif)
+} 
 header{
     position: absolute;
     top: 0;
@@ -106,7 +111,6 @@ header nav ul li{
  }
  .images2{
 height: 360px;
-background-image: url(images/300d279235514a4d799d7283716f4987.jfif);
 background-size: 100%;
 width: 100%;
 background-repeat: no-repeat;
@@ -138,7 +142,6 @@ color: white;
     text-decoration: none;
     font-weight: 50;
     font-size: 30px;
-    position: absolute;
     bottom: 0%;
     left: 5%;
 
