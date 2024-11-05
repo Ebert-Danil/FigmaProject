@@ -125,22 +125,28 @@ color: white;
  .profile{
     display: flex;
     align-items: center;
+    
  }
+ 
+ 
  .profile img{
-    width: 28px;
+    width: 30px;
     border-radius: 50%;
-    margin-right: 10%;
+    margin-right: 10%; 
+    
  }
  .bottom-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: darkgray;
  }
  .image-inner{
     position: absolute;
     width: 90%;
     left: 5%;
     bottom: 5%;
+    color: white;
  }
 .images2 h2{
     color: white;
@@ -152,24 +158,51 @@ color: white;
 
 } 
  .menu{
-    color: darkgray;
+    color: grey;
+ }
+ .menu2 h2{
+    color: black
+    
  }
  .grid_wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    padding: 0 10%;
+    gap: 30px;
+    padding: 0 15%;
+    background-color: #f7f7f7;
+    
  }
  .background{
-    width: 100;
+    width: 100%;
     aspect-ratio: 2/1;
     background-position: center;
     background-size: 100%;
+    color: white;
  }
- .background-img0{
-   background-image: (images/da39ae3ef9ee8c38b3145e586cf8eb52.jfif)
+ .image-inner{
+    color: white;
  }
- .background-img1{
+ .post{
+    background-color: white;
+ }
+ 
+ .img0{
+   background-image: url(images/da39ae3ef9ee8c38b3145e586cf8eb52.jfif)
+   
+ }
+ .img1{
  background-image: url(images/c284b29cf7912dafd828068ca1e0562b.jfif);
+ }
+ .img2{
+    background-image: url(images/9c4977ffbaf2c92ded1a2c0102598de8.jfif)
+ }
+ .img3{
+    background-image: url(images/f02760c3fe6108697d475bebcd531665.jfif)
+ }
+ .img4{
+    background-image: url(images/3220a4a260648392b4b7ad26c8a76b6e.jfif)
+ }
+ .img5{
+    background-image: url(images/a265b8e5c3f96460d61f9a45c1c3c662.jfif)
  }
